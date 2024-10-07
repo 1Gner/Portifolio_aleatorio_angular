@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
+.container-bot {
+    max-width: 1200px;
+    margin-top: 19px;
+
+
+    .card-contato {
+        max-width: 588px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 16px;
+
+
+
+        .top {
+            gap: 16px 0px;
+
+            .titulo {
+                font-size: 16px;
+                font-weight: bold;
+                font-family: "Nunito", sans-serif;
+                border: px solid black;
+                padding: 4px 8px;
+                display: flex;
+                justify-content: center;
+                background-color: black;
+
+                -webkit-box-shadow: -4px -4px 0px 0px #FF5876;
+                -moz-box-shadow: -4px -4px 0px 0px #FF5876;
+                box-shadow: -4px -4px 0px 0px #FF5876;
+
+                h1 {
+                    color: white;
+                }
+            }
+
+            .descricao {
+
+                font-size: 16px;
+                font-family: "Nunito", sans-serif;
+                display: flex;
+                justify-content: center;
+                margin-top: 16px;
+
+            }
+        }
+
+
+        .formu {
+            font-size: 16px;
+            font-weight: bold;
+            font-family: "Nunito", sans-serif;
+            margin-top: 76px;
+
+            .campo-nome {
+                display: flex;
+                flex-direction: column;
+                
+                label {
+                    padding: 0px 16px;
+                    margin-bottom: 8px;
+                }
+                input{
+                    padding: 12px 16px;
+                    border-radius: 8px;
+                }
+            }
+
+            .campo-email {
+                display: flex;
+                flex-direction: column;
+                margin-top: 16px;
+
+                label{
+                    padding: 0px 16px;
+                    margin-bottom: 8px;
+                }
+                input{
+                    padding: 12px 16px;
+                    border-radius: 8px;
+                }
+            }
+
+            .campo-mensagem {
+                display: flex;
+                flex-direction: column;
+                margin-top: 16px;
+
+                label {
+                    padding: 0px 16px;
+                    margin-bottom: 8px;
+                }
+                textarea{
+                    padding: 12px 16px;
+                    border-radius: 8px;
+                    height: 80px;
+                }
+            }
+
+            .botao-enviar {
+                display: flex;
+                margin-top: 16px;
+                justify-content: center;
+                width: 100%;
+
+
+
+                .botao {
+                    font-size: 16px;
+                    font-weight: bold;
+                    font-family: "Nunito", sans-serif;
+                    padding: 13px 24px;
+                    border: 2px solid #FF5876;
+                    background-color: #FF5876;
+                    width: 100%;
+                    color: white;
+
+
+
+                }
+
+
+            }
+
+
+        }
+
+
+    }
+
+
+
+    .foot {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 32px;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: "Nunito", sans-serif;
+
+        .list-images {
+            display: flex;
+            list-style-type: none;
+        }
+
+
+    }
+}

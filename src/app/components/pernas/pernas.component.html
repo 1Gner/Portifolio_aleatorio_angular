@@ -1,0 +1,71 @@
+<div class="container-bot">
+    <div class="card-contato">
+
+
+        <div class="top">
+            <div class="titulo">
+                <h1>HABLEMOS</h1>
+            </div>
+
+            <div class="descricao">
+                <p>Se esta interessado em falar comigo, manda o pix</p>
+            </div>
+
+        </div>
+
+        <div class="formu">
+            <form [formGroup]="meuForm" (ngSubmit)="onSubmit()">
+
+                <div class="campo-nome">
+                    <label for="nome">Nome</label>
+                    <input id="nome" formControlName="nome" />
+             
+                </div>
+
+                <div class="campo-email">
+                    <label for="email">Email</label>
+                    <input id="email" formControlName="email" type="email" />
+                    
+                </div>
+
+                <div class="campo-mensagem">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" formControlName="mensagem"></textarea>
+                    
+                </div>
+
+                <div class="botao-enviar">
+                    <button  type="submit" class="botao"> ENVIAR MENSAGEM</button>
+                   
+                </div>
+
+            </form>
+
+
+        </div>
+    
+
+    </div>
+
+
+
+
+
+
+    <div class="foot">
+        <div class="text">
+            <p>Realizado por Joao Vitor</p>
+        </div>
+
+        <div class="photos">
+            <ul class="list-images">
+                <li><img src="../../../assets/img/Github.png" alt=""></li>
+                <li><img src="../../../assets/img/Twiter.png" alt=""></li>
+                <li><img src="../../../assets/img/Facebook.png" alt=""></li>
+                <li><img src="../../../assets/img/Instagram.png" alt=""></li>
+            </ul>
+        </div>
+    </div>
+
+
+</div>

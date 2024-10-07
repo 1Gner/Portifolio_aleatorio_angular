@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+h1,
+h2,
+h3 {
+    font-family: "Nunito", sans-serif;
+}
+
+
+
+
+
+.top-container {
+    margin: 0;
+    padding: 0;
+
+    background-image: url("../../../assets/img/Background.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+
+
+
+
+
+    .menu {
+
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        padding: 16px 0px;
+
+
+        img {
+            width: 206px;
+            height: auto;
+        }
+
+        .lista-menu {
+            display: flex;
+            list-style-type: none;
+            gap: 48px;
+            font-size: 24px;
+            font-family: "Nunito", sans-serif;
+            list-style-type: none;
+
+            a {
+                text-decoration: none;
+
+            }
+        }
+
+
+
+    }
+
+
+
+    .big-card {
+        display: flex;
+        padding: 16px 0px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .card-left {
+            max-width: 484px;
+
+            margin-top: 100px;
+
+            .titulo {
+                h2 {
+                    width: 421px;
+                    color: #FF5876;
+                    font-size: 24px;
+                    font-family: "Nunito", sans-serif;
+                    font-weight: bold;
+                }
+
+                h1 {
+                    width: 421px;
+                    color: #25282B;
+                    font-size: 40px;
+                    font-family: "Playball", cursive;
+                }
+
+            }
+
+            .descricao {
+                p {
+                    font-size: 16px;
+                    font-family: "Nunito", sans-serif;
+
+                }
+
+                max-width: 490px;
+
+            }
+
+
+            .links {
+                margin-top: 32px;
+                display: flex;
+                gap: 12px;
+                max-width: 279px;
+                font-size: 16px;
+                font-family: "Nunito", sans-serif;
+
+
+
+                .esquerda {
+
+                    background-color: #FF5876;
+                    border: 2px solid #25282B;
+                    border-radius: 8px;
+                    text-align: center;
+                    padding: 8px 24px;
+
+
+
+
+
+
+
+                    .pro {
+                        font-size: 16px;
+                        font-weight: bold;
+                        color: white;
+                        text-decoration: none;
+
+
+
+                    }
+                }
+
+                .direita {
+                    background-color: white;
+                    border: 2px solid #25282B;
+                    border-radius: 8px;
+                    text-align: center;
+                    font-weight: bold;
+                    padding: 8px 24px;
+
+
+
+
+                    .link {
+                        color: black;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+
+        .card-right {
+            img {
+                width: 100;
+                height: auto;
+
+            }
+        }
+
+    }
+
+}
+
+@media (max-width:600px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: space-between;
+        padding: 16px 0px;
+
+
+        img {
+
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .lista-menu {
+           
+            justify-content: space-between;
+
+        }
+
+
+
+    }
+}
